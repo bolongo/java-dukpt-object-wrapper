@@ -6,3 +6,14 @@ from their multiple representations (as Bitsets, Byte Arrays, Hexadecimal String
 
 ## v. 1.0.0
 The first release of the library
+
+## v. 1.0.1
+Access correction
+
+Public class access was missing from BaseCode, BDK, IPEK and KSN classes
+
+## v. 1.0.2
+Access correction from inner classes
+
+Public class access was missing from KSN.TransactionCounterOverflowException and KSN.TransactionCounterUnderflowException
+classes

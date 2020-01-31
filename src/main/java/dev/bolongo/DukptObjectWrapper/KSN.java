@@ -115,7 +115,7 @@ public class KSN extends BaseCode {
         return ksn.getTransactionCounter() != 0L ? ksn.updateTransactionCounter(0L) : ksn;
     }
 
-    class TransactionCounterOverflowException extends RuntimeException {
+    public class TransactionCounterOverflowException extends RuntimeException {
 
         public TransactionCounterOverflowException() {}
 
@@ -128,7 +128,7 @@ public class KSN extends BaseCode {
         public TransactionCounterOverflowException(String s, Throwable throwable, boolean b, boolean b1) { super(s, throwable, b, b1); }
     }
 
-    class TransactionCounterUnderflowException extends RuntimeException {
+    public class TransactionCounterUnderflowException extends RuntimeException {
         public TransactionCounterUnderflowException() {}
 
         public TransactionCounterUnderflowException(String s) { super(s); }
