@@ -3,7 +3,7 @@ package dev.bolongo.DukptObjectWrapper;
 import com.softwareverde.security.dukpt.BitSet;
 import com.softwareverde.security.dukpt.Dukpt;
 
-class IPEK extends BaseCode {
+public class IPEK extends BaseCode {
 
     public IPEK(String value) {
         super(value);

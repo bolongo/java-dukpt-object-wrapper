@@ -2,7 +2,7 @@ package dev.bolongo.DukptObjectWrapper;
 
 import com.softwareverde.security.dukpt.BitSet;
 
-class BDK extends BaseCode {
+public class BDK extends BaseCode {
     public BDK(String value) {
         super(value);
     }

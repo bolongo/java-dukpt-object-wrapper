@@ -3,7 +3,7 @@ package dev.bolongo.DukptObjectWrapper;
 import com.softwareverde.security.dukpt.BitSet;
 import com.softwareverde.security.dukpt.Dukpt;
 
-class BaseCode {
+public class BaseCode {
     protected String asString;
     protected BitSet asBitSet;
     protected byte[] asByteArray;

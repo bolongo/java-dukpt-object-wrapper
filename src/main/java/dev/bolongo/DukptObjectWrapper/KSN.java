@@ -1,10 +1,9 @@
 package dev.bolongo.DukptObjectWrapper;
 
 import com.softwareverde.security.dukpt.BitSet;
-import com.softwareverde.security.dukpt.Dukpt;
 import java.lang.RuntimeException;
 
-class KSN extends BaseCode {
+public class KSN extends BaseCode {
     private long transactionCounter;
 
     private long transactionsLimit = 0b111111111111111111111;
