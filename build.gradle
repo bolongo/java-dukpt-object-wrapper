@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.bolongo'
+version '1.0.0'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral artifactUrls: ["https://jitpack.io"]
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation 'com.github.bolongo:java-dukpt:v1.2.0'
+}
